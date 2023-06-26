@@ -1,0 +1,196 @@
+.leaflet-container {
+    width: 100%;
+    height: 600px;
+  }
+  
+  .map-container {
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url(G:\DhiralWork\TravelLog\frontend\src\styles\Trabelbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white
+  }
+  /*
+  .primary-text{
+    text-align: center;
+    font-family: 'georgia';
+    font-size: 3rem;
+    font-weight: bold;   
+    margin-top: 7rem;
+    margin-bottom: 30px;
+  }
+
+  .container{
+    text-align: center;
+    font-size: 2rem;
+
+  }*/
+  
+  .wrapper {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid rgb(140, 120, 172);
+    border-radius: 10px;
+    box-shadow: 1 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto;
+    padding-top: 20px;
+    color:black;
+    cursor: pointer; /* Add cursor style */
+   
+  }
+  .wrapper:hover {
+    background-color: #a8a6a8e6; /* Change background color on hover */
+  }
+  
+  .wrapper .form-box {
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .wrapper .form-box label {
+    margin-top: 10px;
+  }
+  
+  .wrapper .form-box input {
+    margin-top: 5px;
+  }
+  
+  .wrapper .form-box button {
+    margin-top: 10px;
+  }
+  
+  .wrapper .p {
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .searchbar{
+    margin-top: 70px;
+    text-align: center;
+  }
+  
+
+  .logo-img {
+    width: 40px; 
+    height: auto; 
+  }
+  .navbar-brand{
+    font-family:'georgia';
+    font-weight: bold;
+    margin-left:10px ; 
+    font-size: 25px; 
+    color:black
+  }
+  .navbar{
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(148, 192, 238), rgb(23, 109, 201));
+  }
+  .form-title{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+ 
+  .success-message {
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+   
+  .container-back button {
+    margin-top: 15px;
+  }
+
+  .navbar-nav .nav-link.active{
+    color:black;
+    font-size: large;
+  }
+  .nav-link.map{
+    color: black;
+  }
+  
+  .nav-link.pindetails {
+    color: black;
+  }
+  .container-card{
+    margin-top: 80px;
+  }
+  .card-header{
+    text-align: center;
+    background-color: rgb(190, 189, 189);
+  }
+  
+  .landing-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .landing-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .text-container {
+    flex: 1;
+    text-align: center;
+    margin-right: 2rem;
+    color: white;
+  }
+  
+  .primary-text {
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .container {
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3f51b5;
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+   
+  }
+  
+  .cta-button:hover {
+    background-color: #303c7c;
+  }
+  
+  .image-container {
+    width: 40%;
+    max-width: 500px;
+  }
+  
+  .transparent-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card{
+    background-color:linen
+  }
